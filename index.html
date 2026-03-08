@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Windows Simulator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <span>W</span><span>i</span><span>n</span><span>d</span><span>o</span><span>w</span><span>s</span> 
+  <span>S</span><span>i</span><span>m</span><span>u</span><span>l</span><span>a</span><span>t</span><span>o</span><span>r</span>
+</header>
+
+<div class="toolbar">
+  <input id="urlBox" placeholder="Enter URL or search term...">
+  <button id="openBtn">Open</button>
+  <button id="saveBtn">Save Websites</button>
+  <button id="loadBtn">Load Websites</button>
+</div>
+
+<div class="buttons">
+  <button onclick="openWindow('https://www.bing.com')">Bing</button>
+  <button onclick="openWindow('https://example.com')">Example</button>
+</div>
+
+<div id="desktop"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
